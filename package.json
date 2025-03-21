@@ -1,0 +1,21 @@
+{
+  "name": "dev-manics",
+  "displayName": "dev-manics",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "code-manics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/code-manics-color-theme.json"
+      }
+    ]
+  }
+}
