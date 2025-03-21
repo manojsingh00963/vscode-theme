@@ -1,18 +1,22 @@
 {
   "name": "dev-manics",
-  "displayName": "dev-manics",
-  "description": "",
+  "displayName": "Dev Manics",
+  "description": "A sleek and modern VS Code theme for developers.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manojsingh00963/vscode-theme.git"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.98.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
+  "keywords": ["theme", "dark theme", "vscode", "developer", "code"],
   "contributes": {
     "themes": [
       {
-        "label": "code-manics",
+        "label": "Code Manics",
         "uiTheme": "vs-dark",
         "path": "./themes/code-manics-color-theme.json"
       }
